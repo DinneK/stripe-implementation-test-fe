@@ -10,7 +10,7 @@ function Payment() {
 
   useEffect(() => {
     fetch(
-      "https://stripe-implementation-test-server-dd3i5dmzz-dinnek.vercel.app/api/config"
+      "https://stripe-implementation-test-server.vercel.app/api/config"
     ).then(async (r) => {
       const { publishableKey } = await r.json();
       setStripePromise(loadStripe(publishableKey));
@@ -19,7 +19,7 @@ function Payment() {
 
   useEffect(() => {
     fetch(
-      "https://stripe-implementation-test-server-dd3i5dmzz-dinnek.vercel.app/api/create-payment-intent",
+      "https://stripe-implementation-test-server.vercel.app/api/create-payment-intent",
       {
         method: "POST",
         body: JSON.stringify({}),
