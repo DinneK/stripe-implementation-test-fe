@@ -3,6 +3,8 @@ import { useState } from "react";
 import { useStripe, useElements } from "@stripe/react-stripe-js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
 
 export default function CheckoutForm() {
   const [firstName, setFirstName] = useState("");
@@ -95,13 +97,13 @@ export default function CheckoutForm() {
           )}
         </div>
         <div className="input-with-checkmark">
-          <input
-            type="text"
-            placeholder="Number"
+          <PhoneInput
+            defaultCountry="US"
+            placeholder="Phone Number"
             value={phoneNumber}
             onChange={(e) => {
-              setPhoneNumber(e.target.value);
-              setPhoneNumberFilled(e.target.value !== "");
+              setPhoneNumber();
+              setPhoneNumberFilled();
             }}
           />
           {phoneNumberFilled && (
