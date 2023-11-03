@@ -25,7 +25,7 @@ function Payment() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ promoCode: "CODE123" }),
+        body: JSON.stringify({ promoCode: "promoCodeDiscounts" }),
       }
     ).then(async (result) => {
       var { clientSecret } = await result.json();
