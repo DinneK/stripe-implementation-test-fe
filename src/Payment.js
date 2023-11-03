@@ -22,6 +22,7 @@ function Payment() {
       "https://stripe-implementation-test-server.vercel.app/api/create-payment-intent",
       {
         method: "POST",
+        headers: "no-cors",
         body: JSON.stringify({}),
       }
     ).then(async (result) => {
