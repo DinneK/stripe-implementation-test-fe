@@ -22,7 +22,10 @@ function Payment() {
       "https://stripe-implementation-test-server.vercel.app/api/create-payment-intent",
       {
         method: "POST",
-        body: JSON.stringify({}),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ promoCode: "CODE123" }),
       }
     ).then(async (result) => {
       var { clientSecret } = await result.json();
