@@ -36,11 +36,14 @@ export default function CheckoutForm() {
 
     setIsProcessing(true);
 
+    const promoCode = document.getElementById("promo-code-input").value;
+
     const { error } = await stripe.confirmPayment({
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
         return_url: `${window.location.origin}/completion`,
+        promoCode: promoCode,
       },
     });
 
@@ -152,6 +155,9 @@ export default function CheckoutForm() {
               />
             </div>
           )}
+        </div>
+        <div className="input-with-checkmark">
+          <input type="text" placeholder="Promo Code" id="promo-code-input" />
         </div>
 
         <PaymentElement id="payment-element" />
