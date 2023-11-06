@@ -32,7 +32,7 @@ Welcome to the Stripe Implementation Test Application, a demonstration of how to
 
 <h3 align="center">Home Page</h3>
 
-!(https://user-images.githubusercontent.com/63877492/280868279-39999a9b-d630-413e-9f6e-f7afab0a2245.png)
+![Home Page Image](https://user-images.githubusercontent.com/63877492/280868279-39999a9b-d630-413e-9f6e-f7afab0a2245.png)
 
 
 <br />
