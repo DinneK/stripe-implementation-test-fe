@@ -32,7 +32,7 @@ Welcome to the Stripe Implementation Test Application, a demonstration of how to
 
 <h3 align="center">Home Page</h3>
 
-![Home Page Image](https://user-images.githubusercontent.com/63877492/280868279-39999a9b-d630-413e-9f6e-f7afab0a2245.png)
+![Home Page Imagecd ](https://user-images.githubusercontent.com/63877492/280868279-39999a9b-d630-413e-9f6e-f7afab0a2245.png)
 
 
 <br />
@@ -44,6 +44,7 @@ This project was commissioned by The Good Face Company to facilitate the seamles
 ![JavaScript][JavaScript-shield]
 ![CSS][CSS-shield]
 ![HTML5][HTML-shield]
+![Stripe][Stripe-shield]
 ![Express.js][Express.js]
 ![NPM][NPM-shield]
 ![Vercel][Vercel-shield]
@@ -84,6 +85,7 @@ Dinne Kopelevich | [LinkedIn](https://www.linkedin.com/in/dinne-kopelevich-17458
 [JavaScript-shield]: https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [CSS-shield]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [HTML-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[Stripe-shield]: 	https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white
 [Express.js]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
 [NPM-shield]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
 [Vercel-shield]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
